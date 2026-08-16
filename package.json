@@ -1,0 +1,43 @@
+{
+  "name": "dsh-web-search-ddg",
+  "version": "0.1.0",
+  "description": "Zero-token DuckDuckGo search provider for the DeepSeek Harness (DSH) web capability seam (ctx.web) — drives your local browser headless, no API key, no auxiliary model request",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/search.e2e.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "deepseek",
+    "duckduckgo",
+    "search",
+    "web-search",
+    "cordis",
+    "plugin",
+    "headless-chrome"
+  ],
+  "author": "aooyoo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aooyoo/dsh-web-search-ddg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aooyoo/dsh-web-search-ddg/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
